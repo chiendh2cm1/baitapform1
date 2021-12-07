@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        th {
+            background-color: coral;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table style="background-color: aliceblue">
+        <tr>
+            <th colspan="4">Sở thích của bạn</th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td colspan="3"><input type="text"size="30" name="yourname"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan="3"><input type="text" size="20" name="email"></td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td style="color: red"><label><input type="checkbox" name="hobby">Thể thao</label></td>
+            <td style="color: red"><label><input type="checkbox" name="hobby">Âm nhạc</label></td>
+            <td style="color: red"><label><input type="checkbox" name="hobby">Đọc sách</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="color: red"><label><input type="checkbox" name="hobby">Lướt web</label></td>
+            <td style="color: red"><label><input type="checkbox" name="hobby">Chơi game</label></td>
+            <td style="color: red"><label><input type="checkbox" name="hobby">Điện ảnh</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><label><input type="checkbox" name="hobby">Du lịch</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"><label><input type="submit" value="Gửi thông tin"></label>
+                <label><input type="reset" value="Nhập lại"></label>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

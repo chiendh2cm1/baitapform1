@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        th {
+            font-size: 20px;
+            text-align: left;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table>
+        <tr style="background-color: aquamarine">
+            <th colspan="3">ĐĂNG KÝ HỌC VIÊN</th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" size="30" name="yourname"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td colspan="2" style="text-align: left"><input type="text" size="20" name="dateofbird"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td colspan="2"><label><input type="radio" name="sex" id="male" value="male">Nam</label>
+                            <label><input type="radio" name="sex" id="female" value="female">Nữ</label></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><textarea cols="30" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select name="class" id="class">
+                    <option value="" selected>-Chọn Lớp-</option>
+                    <option value="cA">Lớp A</option>
+                    <option value="cB">Lớp B</option>
+                    <option value="cC">Lớp C</option>
+                    <option value="cD">Lớp D</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan="2" style="text-align: left"><input type="text" size="25" name="dateofbird"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td colspan="2" style="text-align: left"><input type="text" size="25" name="dateofbird"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"><label><input type="submit" value="Đăng nhập"></label>
+                <label><input type="reset" value="Nhập lại"></label>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
